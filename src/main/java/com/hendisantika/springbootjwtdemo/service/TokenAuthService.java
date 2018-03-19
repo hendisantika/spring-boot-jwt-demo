@@ -31,6 +31,7 @@ import java.util.*;
 @Component
 public class TokenAuthService {
 
+    private static final String TOKEN_HEADER = "Authorization";
     private static final String SECRET = "hendisantika";
     private static final String TOKEN_PREFIX = "Bearer";
     private static final long EXPIRATION_TIME = 5 * 60 * 000; // 5 minutes
